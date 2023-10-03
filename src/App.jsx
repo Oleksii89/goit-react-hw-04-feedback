@@ -2,7 +2,7 @@ import { FeedbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
 import { Notification } from 'components/Notification/Notification';
 import { Section } from 'components/Section/Section';
 import { Statistics } from 'components/Statistics/Statistics';
-import { Component, useState } from 'react';
+import { useState } from 'react';
 
 import React from 'react';
 
