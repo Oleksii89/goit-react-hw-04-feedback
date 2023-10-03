@@ -39,7 +39,7 @@ const App = () => {
       </Section>
 
       <Section>
-        {!countTotalFeedback() !== 0 ? (
+        {!countTotalFeedback() === 0 ? (
           <Notification message="There is no feedback" />
         ) : (
           <Statistics
